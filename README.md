@@ -5,8 +5,6 @@
 <p align="center">
     │ &nbsp&nbsp📑 <a href="">ArXiv</a>&nbsp&nbsp │
 </p>
-
-
 ## 🔥 Overview
 
 Large Multimodal Models (LMMs) have become increasingly versatile, accompanied by impressive Optical Character Recognition (OCR) related capabilities. 
@@ -44,7 +42,7 @@ For main results and detailed analysis, please refer to the paper.
 
 ## 🔭 Datasets
 
-- **[Distributions]**
+- **`[Distributions]`**
 
 <div align="center">
 <img src="./assets/distributions.png" />
@@ -52,7 +50,7 @@ For main results and detailed analysis, please refer to the paper.
 
 
 
-- **`[Examples]`**
+- **`[Example]`**
 
 <div align="center">
 <img src="./assets/example.png" />
