@@ -3,8 +3,9 @@
 **Reasoning-OCR: Can Large Multimodal Models Solve Complex Logical Reasoning Problems from OCR Cues?**
 
 <p align="center">
-    │ &nbsp&nbsp📑 <a href="">ArXiv</a>&nbsp&nbsp │
+    │ &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2505.12766">ArXiv</a>&nbsp&nbsp │
 </p>
+
 ## 🔥 Overview
 
 Large Multimodal Models (LMMs) have become increasingly versatile, accompanied by impressive Optical Character Recognition (OCR) related capabilities. 
@@ -36,7 +37,7 @@ For main results and detailed analysis, please refer to the paper.
 
 ## 🗞️ News
 
-- **`2025-05-19`**: 📑 We released our initial [ArXiv paper]() of **Reasoning-OCR**.
+- **`2025-05-19`**: 📑 We released our initial [ArXiv paper](https://arxiv.org/abs/2505.12766) of **Reasoning-OCR**.
 
 
 
@@ -83,6 +84,11 @@ The raw image in  **Reasoning-OCR**  are collected from [ChartQA](https://github
 If you find this project useful, welcome to cite us.
 
 ```bib
-
+@article{he2025reasoningocr,
+      title={Reasoning-OCR: Can Large Multimodal Models Solve Complex Logical Reasoning Problems from OCR Cues?}, 
+      author={Haibin He and Maoyuan Ye and Jing Zhang and Xiantao Cai and Juhua Liu and Bo Du and Dacheng Tao},
+      journal={arXiv preprint arXiv:2505.12766},
+      year={2025},
+}
 ```
 
