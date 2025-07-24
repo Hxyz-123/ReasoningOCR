@@ -39,7 +39,7 @@ For main results and detailed analysis, please refer to the paper.
 
 ## 🗞️ News
 
-- **`2025-07-24`**: 📑 We released the dataset [Hugging Face](https://huggingface.co/datasets/loptr/ReasoningOCR) and the code for evaluation.
+- **`2025-07-24`**: 🤗 We released the dataset on [Hugging Face](https://huggingface.co/datasets/loptr/ReasoningOCR) and the code for evaluation.
 - **`2025-05-19`**: 📑 We released our initial [ArXiv paper](https://arxiv.org/abs/2505.12766) of **Reasoning-OCR**.
 
 
