@@ -4,7 +4,9 @@
 
 <p align="center">
     │ &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2505.12766">ArXiv</a>&nbsp&nbsp │
+    🤗 <a href="https://huggingface.co/datasets/loptr/ReasoningOCR">Hugging Face</a> <a><img
 </p>
+
 
 ## 🔥 Overview
 
@@ -56,6 +58,28 @@ For main results and detailed analysis, please refer to the paper.
 <div align="center">
 <img src="./assets/example.png" />
 </div>
+
+
+## 🔨 Evaluation
+
+```python
+### First, download the code and dataset
+git clone https://github.com/Hxyz-123/ReasoningOCR
+cd ReasoningOCR
+wget https://huggingface.co/datasets/loptr/ReasoningOCR/resolve/main/img.zip
+unzip img.zip
+wget https://huggingface.co/datasets/loptr/ReasoningOCR/resolve/main/qa.json
+    
+### Second, eval the vlms. You can use example/qwen2_vl.py as a guide to run inference on your target VLM.
+python example/qwen2_vl.py --model_path path_to_model --device 0 --img_path ./img --json_path ./qa.json --out_path ./org_results/qwen2vl-7b
+
+### Third, use regular expressions or GPT-4o to extract the answer.
+python eval/ans_extr.py --org_path ./org_results/qwen2vl-7b --json_path ./qa.json --out_path ./ext_results/qwen2vl-7b
+
+### Finally, evaluate the answer accuracy.
+python eval/eval.py --ans_path ./ext_results/qwen2vl-7b --json_path ./qa.json
+```
+
 
 
 
